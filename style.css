@@ -1,0 +1,294 @@
+body {
+  background-color: #100720;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+#div {
+  text-align: center;
+  color: black;
+  margin-bottom: 6%;
+  user-select: none;
+}
+
+#header {
+  font-size: 650%;
+  color: rgb(255, 255, 255);
+}
+
+#button {
+  color: #fff;
+  padding: 20px 32px;
+  font-size: 200%;
+  border-radius: 1rem;
+  background: #100720;
+  cursor: pointer;
+  border: none;
+  transition: 0.1s;
+  text-decoration: none;
+}
+
+#button:hover {
+  box-shadow: 11px 11px 22px #06040e, -11px -11px 22px #1a1036;
+  transition: 0.1s;
+}
+
+#button:active {
+  transform: scale(0.9);
+  transition: 0.1s;
+  box-shadow: inset 31px 31px 61px #06040e, inset -31px -31px 61px #1a1036;
+  position: relative;
+}
+
+.item-1 {
+  border-radius: 8px;
+  background-color: #0044af;
+  padding: 45px;
+  animation-name: color-s;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.item-2 {
+  border-radius: 8px;
+  background-color: white;
+  padding: 45px;
+  animation-name: color-s1;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.item-3 {
+  border-radius: 8px;
+  background-color: #ff5700;
+  padding: 45px;
+  animation-name: color-s2;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.item-4 {
+  border-radius: 8px;
+  background-color: #ffd600;
+  padding: 45px;
+  animation-name: color-s3;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.item-5 {
+  border-radius: 8px;
+  background-color: #b90a31;
+  padding: 45px;
+  animation-name: color-s4;
+  animation-duration: 80s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.item-6 {
+  border-radius: 8px;
+  background-color: #009c46;
+  padding: 45px;
+  animation-name: color-s5;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.item-7 {
+  border-radius: 8px;
+  background-color: #009c46;
+  padding: 45px;
+  animation-name: color-s5;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.item-8 {
+  border-radius: 8px;
+  background-color: #ff5700;
+  padding: 45px;
+  animation-name: color-s2;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.item-9 {
+  border-radius: 8px;
+  background-color: white;
+  padding: 45px;
+  animation-name: color-s1;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.container {
+  gap: 5px;
+  display: grid;
+  grid-template-rows: repeat(3, 100px);
+  grid-template-columns: repeat(3, 100px);
+  justify-content: center;
+  user-select: none;
+}
+
+@keyframes color-s {
+  0% {
+    background-color: #0044af;
+  }
+  15% {
+    background-color: #ffd600;
+  }
+  30% {
+    background-color: #ff5700;
+  }
+  45% {
+    background-color: #ffffff;
+  }
+  60% {
+    background-color: #009c46;
+  }
+  75% {
+    background-color: #b90a31;
+  }
+  100% {
+    background-color: #0044af;
+  }
+}
+
+@keyframes color-s1 {
+  0% {
+    background-color: #ffffff;
+  }
+  15% {
+    background-color: #0044af;
+  }
+  30% {
+    background-color: #009c46;
+  }
+  45% {
+    background-color: #b90a31;
+  }
+  60% {
+    background-color: #ff5700;
+  }
+  75% {
+    background-color: #ffd600;
+  }
+  100% {
+    background-color: #ffffff;
+  }
+}
+
+@keyframes color-s2 {
+  0% {
+    background-color: #ff5700;
+  }
+  15% {
+    background-color: #ffd600;
+  }
+  30% {
+    background-color: #b90a31;
+  }
+  45% {
+    background-color: #ffffff;
+  }
+  60% {
+    background-color: #0044af;
+  }
+  75% {
+    background-color: #009c46;
+  }
+  100% {
+    background-color: #ff5700;
+  }
+}
+
+@keyframes color-s3 {
+  0% {
+    background-color: #ffd600;
+  }
+  15% {
+    background-color: #ff5700;
+  }
+  30% {
+    background-color: #ffffff;
+  }
+  45% {
+    background-color: #b90a31;
+  }
+  60% {
+    background-color: #0044af;
+  }
+  75% {
+    background-color: #009c46;
+  }
+  100% {
+    background-color: #ffd600;
+  }
+}
+
+@keyframes color-s4 {
+  0% {
+    background-color: #b90a31;
+  }
+  15% {
+    background-color: #ff5700;
+  }
+  30% {
+    background-color: #ffffff;
+  }
+  45% {
+    background-color: #ffd600;
+  }
+  60% {
+    background-color: #0044af;
+  }
+  75% {
+    background-color: #009c46;
+  }
+  100% {
+    background-color: #b90a31;
+  }
+}
+
+@keyframes color-s5 {
+  0% {
+    background-color: #009c46;
+  }
+  15% {
+    background-color: #ff5700;
+  }
+  30% {
+    background-color: #ffffff;
+  }
+  45% {
+    background-color: #ffd600;
+  }
+  60% {
+    background-color: #0044af;
+  }
+  75% {
+    background-color: #b90a31;
+  }
+  100% {
+    background-color: #009c46;
+  }
+}
+
+#corner-1 {
+  position: absolute;
+  border-radius: 8px;
+  background-color: #0044af;
+  padding: 45px;
+  animation-name: color-s;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}

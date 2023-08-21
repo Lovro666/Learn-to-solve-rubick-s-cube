@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Solve & Learn</title>
+    <link rel="stylesheet" href="style1.css" />
+    <link rel="icon" type="image/png" href="/rubik's cube logo .png" />
+  </head>
+  <body>
+    <div class="slide-container">
+      <div class="slide slide1">
+        <div class="containerCube">
+          <div class="boxb">
+            <div
+              onclick="changeColor(box202)"
+              onclick="movesToCube(box202)"
+              id="box202"
+              data-color="green"
+            ></div>
+
+            <div
+              onclick="changeColor(box212)"
+              onclick="movesToCube(box212)"
+              id="box212"
+              data-color="green"
+            ></div>
+
+            <div
+              onclick="changeColor(box222)"
+              onclick="movesToCube(box222)"
+              id="box222"
+              data-color="green"
+            ></div>
+
+            <div
+              onclick="changeColor(box201)"
+              onclick="movesToCube(box201)"
+              id="box201"
+              data-color="green"
+            ></div>
+
+            <div id="box211"></div>
+
+            <div
+              onclick="changeColor(box221)"
+              onclick="movesToCube(box221)"
+              id="box221"
+              data-color="green"
+            ></div>
+
+            <div
+              onclick="changeColor(box200)"
+              onclick="movesToCube(box200)"
+              id="box200"
+              data-color="green"
+            ></div>
+
+            <div
+              onclick="changeColor(box210)"
+              onclick="movesToCube(box210)"
+              m
+              id="box210"
+              data-color="green"
+            ></div>
+
+            <div
+              onclick="changeColor(box220)"
+              onclick="movesToCube(box220)"
+              id="box220"
+              data-color="green"
+            ></div>
+          </div>
+
+          <div class="boxlur">
+            <div class="boxl">
+              <div
+                onclick="changeColor(box402)"
+                onclick="movesToCube(box402)"
+                id="box402"
+                data-color="orange"
+              ></div>
+
+              <div
+                onclick="changeColor(box412)"
+                onclick="movesToCube(box412)"
+                id="box412"
+                data-color="orange"
+              ></div>
+
+              <div
+                onclick="changeColor(box422)"
+                onclick="movesToCube(box422)"
+                id="box422"
+                data-color="orange"
+              ></div>
+
+              <div
+                onclick="changeColor(box401)"
+                onclick="movesToCube(box401)"
+                id="box401"
+                data-color="orange"
+              ></div>
+
+              <div id="box411"></div>
+
+              <div
+                onclick="changeColor(box421)"
+                onclick="movesToCube(box421)"
+                id="box421"
+                data-color="orange"
+              ></div>
+
+              <div
+                onclick="changeColor(box400)"
+                onclick="movesToCube(box400)"
+                id="box400"
+                data-color="orange"
+              ></div>
+
+              <div
+                onclick="changeColor(box410)"
+                onclick="movesToCube(box410)"
+                id="box410"
+                data-color="orange"
+              ></div>
+
+              <div
+                onclick="changeColor(box420)"
+                onclick="movesToCube(box420)"
+                id="box420"
+                data-color="orange"
+              ></div>
+            </div>
+
+            <div class="boxu">
+              <div
+                onclick="changeColor(box102)"
+                onclick="movesToCube(box102)"
+                id="box102"
+                class="box102"
+                data-color="yellow"
+              ></div>
+
+              <div
+                onclick="changeColor(box112)"
+                onclick="movesToCube(box112)"
+                id="box112"
+                class="box112"
+                data-color="yellow"
+              ></div>
+
+              <div
+                onclick="changeColor(box122)"
+                onclick="movesToCube(box122)"
+                id="box122"
+                class="box122"
+                data-color="yellow"
+              ></div>
+
+              <div
+                onclick="changeColor(box101)"
+                onclick="movesToCube(box101)"
+                id="box101"
+                class="box101"
+                data-color="yellow"
+              ></div>
+
+              <div class="box111" id="box111"></div>
+
+              <div
+                onclick="changeColor(box121)"
+                onclick="movesToCube(box121)"
+                id="box121"
+                class="box121"
+                data-color="yellow"
+              ></div>
+
+              <div
+                onclick="changeColor(box100)"
+                onclick="movesToCube(box100)"
+                id="box100"
+                class="box100"
+                data-color="yellow"
+              ></div>
+
+              <div
+                onclick="changeColor(box110)"
+                onclick="movesToCube(box110)"
+                id="box110"
+                class="box110"
+                data-color="yellow"
+              ></div>
+
+              <div
+                onclick="changeColor(box120)"
+                onclick="movesToCube(box120)"
+                id="box120"
+                class="box120"
+                data-color="yellow"
+              ></div>
+            </div>
+
+            <div class="boxr">
+              <div
+                onclick="changeColor(box502)"
+                onclick="movesToCube(box502)"
+                id="box502"
+                class="box502"
+                data-color="red"
+              ></div>
+
+              <div
+                onclick="changeColor(box512)"
+                onclick="movesToCube(box512)"
+                id="box512"
+                class="box512"
+                data-color="red"
+              ></div>
+
+              <div
+                onclick="changeColor(box522)"
+                onclick="movesToCube(box522)"
+                id="box522"
+                class="box522"
+                data-color="red"
+              ></div>
+
+              <div
+                onclick="changeColor(box501)"
+                onclick="movesToCube(box501)"
+                id="box501"
+                class="box501"
+                data-color="red"
+              ></div>
+
+              <div class="box511" id="box511"></div>
+
+              <div
+                onclick="changeColor(box521)"
+                onclick="movesToCube(box521)"
+                id="box521"
+                class="box521"
+                data-color="red"
+              ></div>
+
+              <div
+                onclick="changeColor(box500)"
+                onclick="movesToCube(box500)"
+                id="box500"
+                class="box500"
+                data-color="red"
+              ></div>
+
+              <div
+                onclick="changeColor(box510)"
+                onclick="movesToCube(box510)"
+                id="box510"
+                class="box510"
+                data-color="red"
+              ></div>
+
+              <div
+                onclick="changeColor(box520)"
+                onclick="movesToCube(box520)"
+                id="box520"
+                class="box520"
+                data-color="red"
+              ></div>
+            </div>
+          </div>
+
+          <div class="boxf">
+            <div
+              onclick="changeColor(box002)"
+              onclick="movesToCube(box002)"
+              id="box002"
+              class="box002"
+              data-color="blue"
+            ></div>
+
+            <div
+              onclick="changeColor(box012)"
+              onclick="movesToCube(box012)"
+              id="box012"
+              class="box012"
+              data-color="blue"
+            ></div>
+
+            <div
+              onclick="changeColor(box022)"
+              onclick="movesToCube(box022)"
+              id="box022"
+              class="box022"
+              data-color="blue"
+            ></div>
+
+            <div
+              onclick="changeColor(box001)"
+              onclick="movesToCube(box001)"
+              id="box001"
+              class="box001"
+              data-color="blue"
+            ></div>
+
+            <div class="box011" id="box011"></div>
+
+            <div
+              onclick="changeColor(box021)"
+              onclick="movesToCube(box021)"
+              id="box021"
+              class="box021"
+              data-color="blue"
+            ></div>
+
+            <div
+              onclick="changeColor(box000)"
+              onclick="movesToCube(box000)"
+              id="box000"
+              class="box000"
+              data-color="blue"
+            ></div>
+
+            <div
+              onclick="changeColor(box010)"
+              onclick="movesToCube(box010)"
+              id="box010"
+              class="box010"
+              data-color="blue"
+            ></div>
+
+            <div
+              onclick="changeColor(box020)"
+              onclick="movesToCube(box020)"
+              id="box020"
+              class="box020"
+              data-color="blue"
+            ></div>
+          </div>
+
+          <div class="boxd">
+            <div
+              onclick="changeColor(box302)"
+              onclick="movesToCube(box302)"
+              id="box302"
+              data-color="white"
+            ></div>
+
+            <div
+              onclick="changeColor(box312)"
+              onclick="movesToCube(box312)"
+              id="box312"
+              data-color="white"
+            ></div>
+
+            <div
+              onclick="changeColor(box322)"
+              onclick="movesToCube(box322)"
+              id="box322"
+              data-color="white"
+            ></div>
+
+            <div
+              onclick="changeColor(box301)"
+              onclick="movesToCube(box301)"
+              id="box301"
+              data-color="white"
+            ></div>
+
+            <div id="box311"></div>
+
+            <div
+              onclick="changeColor(box321)"
+              onclick="movesToCube(box321)"
+              id="box321"
+              data-color="white"
+            ></div>
+
+            <div
+              onclick="changeColor(box300)"
+              onclick="movesToCube(box300)"
+              id="box300"
+              data-color="white"
+            ></div>
+
+            <div
+              onclick="changeColor(box310)"
+              onclick="movesToCube(box310)"
+              id="box310"
+              data-color="white"
+            ></div>
+
+            <div
+              onclick="changeColor(box320)"
+              onclick="(box320)"
+              id="box320"
+              data-color="white"
+            ></div>
+          </div>
+        </div>
+
+        <div class="buttons">
+          <button onclick="solver()" id="nextButton" class="button">
+            solve
+          </button>
+        </div>
+      </div>
+
+      <!--SLIDE 2-->
+      <div class="slide slide2">
+        <div class="okvircek">
+          <div class="steps" id="steps"></div>
+          <div class="okncek" id="okncek"></div>
+          <p class="education" id="education"></p>
+        </div>
+        <div class="container">
+          <div class="side top">
+            <div
+              class="boxu"
+              style="transform: rotate(-45deg) skew(15deg, 15deg)"
+            >
+              <div
+                onclick="movesToCube(box100)"
+                id="box1003"
+                class="box100"
+                data-color="yellow"
+              >
+                <i class="arrowL" style="transform: rotate(135deg)"></i>
+                <i class="arrowLI" style="transform: rotate(-45deg)"></i>
+                <i class="arrowF"></i>
+                <i class="arrowFI"></i>
+              </div>
+              <div
+                onclick="movesToCube(box101)"
+                id="box1013"
+                class="box101"
+                data-color="yellow"
+              >
+                <i class="arrowL" style="transform: rotate(135deg)"></i>
+                <i class="arrowLI" style="transform: rotate(-45deg)"></i>
+              </div>
+              <div
+                onclick="movesToCube(box102)"
+                id="box1023"
+                class="box102"
+                data-color="yellow"
+              >
+                <i class="arrowL" style="transform: rotate(135deg)"></i>
+                <i class="arrowLI" style="transform: rotate(-45deg)"></i>
+                <i class="arrowB"></i>
+                <i class="arrowBI"></i>
+              </div>
+              <div
+                onclick="movesToCube(box110)"
+                id="box1103"
+                class="box110"
+                data-color="yellow"
+              >
+                <i class="arrowF"></i>
+                <i class="arrowFI"></i>
+              </div>
+
+              <div class="box111" id="box111"></div>
+
+              <div
+                onclick="movesToCube(box112)"
+                id="box1123"
+                class="box112"
+                data-color="yellow"
+              >
+                <i class="arrowB"></i>
+                <i class="arrowBI"></i>
+              </div>
+              <div
+                onclick="movesToCube(box120)"
+                id="box1203"
+                class="box120"
+                data-color="yellow"
+              >
+                <i class="arrowR" style="transform: rotate(-45deg)"></i>
+                <i class="arrowRI" style="transform: rotate(135deg)"></i>
+                <i class="arrowF"></i>
+                <i class="arrowFI"></i>
+              </div>
+              <div
+                onclick="movesToCube(box121)"
+                id="box1213"
+                class="box121"
+                data-color="yellow"
+              >
+                <i class="arrowR" style="transform: rotate(-45deg)"></i>
+                <i class="arrowRI" style="transform: rotate(135deg)"></i>
+              </div>
+              <div
+                onclick="movesToCube(box122)"
+                id="box1223"
+                class="box122"
+                data-color="yellow"
+              >
+                <i class="arrowR" style="transform: rotate(-45deg)"></i>
+                <i class="arrowRI" style="transform: rotate(135deg)"></i>
+                <i class="arrowB"></i>
+                <i class="arrowBI"></i>
+              </div>
+            </div>
+          </div>
+          <div class="side left">
+            <div
+              class="boxf"
+              style="
+                transform: rotate(15deg) skew(15deg, 15deg)
+                  translate(-47.5%, 100%);
+              "
+            >
+              <div
+                onclick="movesToCube(box002)"
+                id="box0023"
+                class="box002"
+                data-color="blue"
+              >
+                <i class="arrowU"></i>
+                <i class="arrowUI"></i>
+                <i class="arrowL"></i>
+                <i class="arrowLI"></i>
+              </div>
+
+              <div
+                onclick="movesToCube(box012)"
+                id="box0123"
+                class="box012"
+                data-color="blue"
+              >
+                <i class="arrowU"></i>
+                <i class="arrowUI"></i>
+              </div>
+
+              <div
+                onclick="movesToCube(box022)"
+                id="box0223"
+                class="box022"
+                data-color="blue"
+              >
+                <i class="arrowU"></i>
+                <i class="arrowUI"></i>
+                <i class="arrowR"></i>
+                <i class="arrowRI"></i>
+              </div>
+
+              <div
+                onclick="movesToCube(box001)"
+                id="box0013"
+                class="box001"
+                data-color="blue"
+              >
+                <i class="arrowL"></i>
+                <i class="arrowLI"></i>
+              </div>
+
+              <div class="box011" id="box0113"></div>
+
+              <div
+                onclick="movesToCube(box021)"
+                id="box0213"
+                class="box021"
+                data-color="blue"
+              >
+                <i class="arrowR"></i>
+                <i class="arrowRI"></i>
+              </div>
+
+              <div
+                onclick="movesToCube(box000)"
+                id="box0003"
+                class="box000"
+                data-color="blue"
+              >
+                <i class="arrowD"></i>
+                <i class="arrowDI"></i>
+                <i class="arrowL"></i>
+                <i class="arrowLI"></i>
+              </div>
+
+              <div
+                onclick="movesToCube(box010)"
+                id="box0103"
+                class="box010"
+                data-color="blue"
+              >
+                <i class="arrowD"></i>
+                <i class="arrowDI"></i>
+              </div>
+
+              <div
+                onclick="movesToCube(box020)"
+                id="box0203"
+                class="box020"
+                data-color="blue"
+              >
+                <i class="arrowD"></i>
+                <i class="arrowDI"></i>
+                <i class="arrowR"></i>
+                <i class="arrowRI"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="side right">
+            <div
+              class="boxr"
+              style="
+                transform: rotate(-15deg) skew(-15deg, -15deg)
+                  translate(47.7%, 100%);
+              "
+            >
+              <div class="box500" id="box5003" data-color="red">
+                <i class="arrowU"></i>
+                <i class="arrowUI"></i>
+                <i class="arrowF"></i>
+                <i class="arrowFI"></i>
+              </div>
+              <div class="box501" id="box5013" data-color="red">
+                <i class="arrowU"></i>
+                <i class="arrowUI"></i>
+              </div>
+              <div class="box502" id="box5023" data-color="red">
+                <i class="arrowU"></i>
+                <i class="arrowUI"></i>
+                <i class="arrowB"></i>
+                <i class="arrowBI"></i>
+              </div>
+              <div class="box510" id="box5103" data-color="red">
+                <i class="arrowF"></i>
+                <i class="arrowFI"></i>
+              </div>
+
+              <div class="box511" id="box5113"></div>
+
+              <div class="box512" id="box5123" data-color="red">
+                <i class="arrowB"></i>
+                <i class="arrowBI"></i>
+              </div>
+              <div class="box520" id="box5203" data-color="red">
+                <i class="arrowD"></i>
+                <i class="arrowDI"></i>
+                <i class="arrowF"></i>
+                <i class="arrowFI"></i>
+              </div>
+              <div class="box521" id="box5213" data-color="red">
+                <i class="arrowD"></i>
+                <i class="arrowDI"></i>
+              </div>
+              <div class="box522" id="box5223" data-color="red">
+                <i class="arrowD"></i>
+                <i class="arrowDI"></i>
+                <i class="arrowB"></i>
+                <i class="arrowBI"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="buttons2">
+          <button onclick="doMove()" class="button">Next</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="index.js" content="text/javascript"></script>
+    <script src="index2.js" content="text/javascript"></script>
+  </body>
+</html>
